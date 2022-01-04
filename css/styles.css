@@ -1,0 +1,615 @@
+/*
+* Colors used in design.
+*   primary: #0078aa;
+*   dark: #363636;
+*   light: #fff;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+.header {
+  background-image: url(../img/lady.jpg);
+  min-height: 640px;
+  width: 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header_container {
+  width: 90%;
+  float: right;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.nav img {
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+}
+
+.nav > ul {
+  list-style-type: none;
+  margin-right: 17%;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  padding: 14px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: #0077aa;
+}
+
+.header-text {
+  max-width: 40%;
+  padding-top: 220px;
+}
+
+.header-text p {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.header-text > span {
+  width: 77%;
+  color: gray;
+  display: inline-block;
+}
+
+.circle {
+  height: 45px;
+  width: 45px;
+  background-color: #0077aa;
+  border-radius: 50%;
+  display: inline-block;
+  color: white;
+  margin: 17px 17px 0 0;
+  border: 2px #0077aa solid;
+}
+
+.circle:hover {
+  background-color: white;
+  color: #0077aa;
+  border: 2px #0077aa solid;
+}
+
+.header_icons {
+  padding: 7px;
+  font-size: 27px;
+}
+
+/* main */
+/* 1 */
+
+.section_about {
+  display: flex;
+  padding: 60px 0 50px 5px;
+  /* position: relative; */
+}
+
+.about_img {
+  width: 50%;
+}
+
+.about_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.about_text {
+  display: block;
+  margin: auto 0;
+  padding-left: 35px;
+}
+
+.about_text h1{
+  font-size: 2em;
+}
+
+.about_text > p {
+  color: #0077aa;
+}
+
+.clinik_text {
+  padding-top: 20px;
+}
+
+.clinik_text > p {
+  width: 430px;
+}
+
+.section_icons {
+  padding-right: 10px;
+  color: #0077aa;
+}
+
+.scroll_btn {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  /* position: absolute; */
+  position: fixed;
+  height: 45px;
+  width: 45px;
+  /* top: 20px;
+  right: 25px; */
+  bottom: 25px;
+  right: 25px;
+  background-color: #0077aa;
+  border-radius: 50%;
+  color: white;
+}
+
+/* 2 */
+
+.section_services {
+  background-image: url(../img/services_bg.jpg);
+  padding-bottom: 50px;
+  width: 100%;
+  background-size: cover;
+}
+
+.services_grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section_block {
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 2.1em;
+}
+
+.section_block > h1 {
+  text-align: center;
+}
+
+.section_block > p {
+  padding: 10px 0 10px;
+  text-align: center;
+}
+
+.grid_item {
+  background-color: white;
+  padding: 20px;
+}
+
+.grid_item p {
+  padding-top: 10px;
+}
+
+/* 3 */
+
+.section_offers {
+  background-image: url(../img/pricing_bg.jpg);
+  padding-bottom: 70px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.price_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.card {
+  text-align: center;
+  padding: 40px 100px;
+}
+
+.card1, .card3 {
+  background-color: #47c9e5;
+  color: white;
+}
+
+.card2 {
+  background-color: white;
+  border: 2px #2f91ba solid;
+  height: 530px;
+  color: #0077aa;
+  padding-top: 60px;
+}
+
+.h1_offers {
+  padding: 10px 0;
+  font-size: 3em;
+}
+
+.procedures > p {
+  font-style: italic;
+}
+
+.procedures ul {
+  list-style-type: none;
+  font-size: 13px;
+  padding: 20px 0 10px;
+}
+
+.procedures li {
+  padding: 10px 0;
+}
+
+.card_button {
+  background-color: white;
+  color: #0077aa;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 2px #0077aa solid;
+}
+
+.card_button:hover {
+  background-color: #0077aa;
+  color: white;
+}
+
+/* 4 */
+
+.section_contact {
+  padding-left: 5px;
+  display: flex;
+}
+
+.contact_form {
+  width: 50%;
+  padding-left: 35px;
+}
+
+form {
+  padding-top: 10px;
+}
+
+#fullname, #email, #phone, #date, #subject {
+  border-bottom: 1px #e4e4e4 solid;
+  width: 90%;
+  padding: 20px 0 10px 10px;
+  outline: none;
+}
+
+::placeholder {
+  font-style: italic;
+}
+
+#submit {
+  background-color: #0077aa;
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 2px #0077aa solid;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: white;
+  color: #0077aa;
+}
+
+/* 5 */
+
+.footer {
+  display: flex;
+  background-color: #363636;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+
+  html {
+    scroll-padding-top: 90px;
+  }
+
+  .header {
+    min-height: 520px;
+    width: 100%;
+    background-position: right 65% bottom 0;
+  }
+
+  .header_container {
+    width: 100%;
+    float: none;
+  }
+
+  .nav {
+    display: block;
+    padding-top: 15px;
+    height: 100px;
+  }
+  
+  .nav img {
+    display: block;
+    margin: auto;
+  }
+  
+  .nav > ul {
+    margin-right: 0;
+    justify-content: center;
+    display: flex;
+  }
+  
+  nav ul li a {
+    padding: 12px 4px;
+    font-size: 13px;
+  }
+  
+  .header-text {
+    max-width: 100%;
+    padding-top: 170px;
+  }
+  
+  .header-text p {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 80%;
+  }
+  
+  .header-text > span {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 80%;
+    display: table;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 90%;
+  }
+
+  .circle {
+    margin: 17px 0;
+  }
+
+  /* 1 */
+
+  .section_about {
+    display: block;
+    padding-top: 10px;
+    padding-left: 0;
+  }
+  
+  .about_img {
+    width: 100%;
+  }
+  
+  .about_text {
+    display: block;
+    text-align: center;
+    padding: 0 10px 30px;
+  }
+
+  .clinik_text > p {
+    width: 100%;
+  }
+
+  /* 2 */
+
+  .section_services {
+    padding-bottom: 35px;
+    background-size: auto;
+  }
+  
+  .services_grid {
+    grid-template-columns: auto;
+    padding: 0;
+  }
+  
+  .section_block {
+    padding-top: 35px;
+  }
+
+  /* 3 */
+
+  .section_offers {
+    background-color: white;
+  }
+  
+  .price_cards {
+    display: block;
+    padding: 0;
+  }
+  
+  .card {
+    margin: 15px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    height: auto;
+  }
+  
+  .procedures ul {
+    display: block;
+  }
+  
+  .procedures li {
+    padding: 10px 0;
+  }
+  
+  /* 4 */
+
+  .section_contact {
+    display: block;
+  }
+  
+  .contact_form {
+    width: 100%;
+    padding: 10px 0 0 0;
+  }
+  
+  .contact_form > h1, .contact_form > p {
+    text-align: center;
+  }
+
+  form {
+    text-align: center;
+  }
+  
+  #submit {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1280px){
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+  }
+  
+  .header {
+    background-position: right 60% bottom 0;
+  }
+  
+  .header_container {
+    width: 100%;
+    float: none;
+  }
+  
+  .nav img {
+    margin-left: 20px;
+  }
+  
+  .nav > ul {
+    margin-right: 20px;
+  }
+  
+  .header-text {
+    max-width: 75%;
+    padding-left: 20px;
+  }
+  
+  /* 1 */
+
+  .section_about {
+    display: flex;
+    padding: 60px 0 50px 5px;
+    /* position: relative; */
+  }
+  
+  .about_img {
+    width: 50%;
+  }
+  
+  .about_img img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .about_text {
+    display: block;
+    margin: auto 0;
+    padding-left: 35px;
+  }
+  
+  .about_text h1{
+    font-size: 2em;
+  }
+  
+  .about_text > p {
+    color: #0077aa;
+  }
+  
+  .clinik_text {
+    padding-top: 20px;
+  }
+  
+  .clinik_text > p {
+    width: 430px;
+  }
+  
+  .section_icons {
+    padding-right: 10px;
+    color: #0077aa;
+  }
+
+  /* 2 */
+  
+  .services_grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 0 0 0;
+    width: 95%;
+  }
+
+  /* 3 */
+  
+  .section_block {
+    padding-top: 35px;
+  }
+
+  .price_cards {
+    padding-top: 10px;
+  }
+  
+  .card {
+    text-align: center;
+    padding: 40px 50px;
+  }
+  
+  .card2 {
+    padding-top: 60px;
+  }
+  
+  /* 4 */
+  
+  .section_contact img {
+    object-fit: cover;
+    object-position: left;
+  }
+  
+  .contact_form {
+    padding-top: 40px;
+  }
+
+  #submit {
+    margin: 20px 0 20px;
+  }
+  
+
+}
