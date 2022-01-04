@@ -279,6 +279,7 @@ h1 {
   padding: 10px 15px;
   border-radius: 10px;
   border: 2px #0077aa solid;
+  cursor: pointer;
 }
 
 .card_button:hover {
@@ -617,6 +618,4 @@ form {
   #submit {
     margin: 20px 0 20px;
   }
-  
-
 }

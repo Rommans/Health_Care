@@ -13,7 +13,7 @@
   <header class="header" id="home">
     <div class="header_container">
       <nav class="nav">
-        <a href="#home"><img src="img/logo.png" id="home" alt="logo"></a>
+        <a href="#home"><img src="img/logo.png" alt="logo"></a>
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -45,11 +45,11 @@
         <p>PROFESSIONAL CARE</p>
         <div class="about_subtext">
           <div class="medical_cons clinik_text">
-            <h4></i><span class="section_icons">⇨</span>Medical Consulting</h4>
+            <h4><span class="section_icons">⇨</span>Medical Consulting</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla ex eu tristique convallis. Vivamus in dignissim urna.</p>
           </div>
           <div class="lab_anl clinik_text">
-            <h4></i><span class="section_icons">⇨</span>Laboratory analysis</h4>
+            <h4><span class="section_icons">⇨</span>Laboratory analysis</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla ex eu tristique convallis. Vivamus in dignissim urna.</p>
           </div>
           <div class="diagnostic clinik_text">
@@ -58,7 +58,9 @@
           </div>
         </div>
       </div>
-      <a href="#home"><button id="home" class="scroll_btn"><i class="fas fa-long-arrow-alt-up"></i></button></a>
+      <form action="#home">
+        <button class="scroll_btn"><i class="fas fa-long-arrow-alt-up"></i></button>
+      </form>
     </section>
     <section class="section_services" id="services">
       <div class="section_block">
@@ -165,7 +167,7 @@
           <input type="text" id="fullname" placeholder="Full Name"><br>
           <input type="email" id="email" placeholder="Email" required><br>
           <input type="tel" id="phone" placeholder="Phone" required><br>
-          <input type="date" id="date" placeholder="mm / dd / yyyy"><br>
+          <input type="date" id="date"><br>
           <input type="text" list="subject_list" id="subject" placeholder="Subject"><br>
           <datalist id="subject_list">
             <option>Ophthalmology</option>
